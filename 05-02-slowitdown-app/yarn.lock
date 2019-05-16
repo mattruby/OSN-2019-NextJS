@@ -2877,7 +2877,7 @@ next-server@8.1.0:
     send "0.16.1"
     url "0.11.0"
 
-next@^8.0.4:
+next@^8.1.0:
   version "8.1.0"
   resolved "http://artifactory.bluestembrands.com/artifactory/api/npm/npm-virtual/next/-/next-8.1.0.tgz#2a996dcd611f9e16920841c615e8bd6e5ada6e1c"
   integrity sha1-KpltzWEfnhaSCEHGFei9blrabhw=
@@ -3490,7 +3490,7 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-dom@^16.8.5:
+react-dom@^16.8.6:
   version "16.8.6"
   resolved "http://artifactory.bluestembrands.com/artifactory/api/npm/npm-virtual/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   integrity sha1-cdYwP2MeiwCX9WFl72CPBR/24Q8=
@@ -3517,7 +3517,7 @@ react-ssr-prepass@1.0.2:
   dependencies:
     object-is "^1.0.1"
 
-react@^16.8.5:
+react@^16.8.6:
   version "16.8.6"
   resolved "http://artifactory.bluestembrands.com/artifactory/api/npm/npm-virtual/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   integrity sha1-rWw6lhT9Ok6e9REX9U2IjaAfK74=

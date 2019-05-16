@@ -2877,7 +2877,7 @@ next-server@8.1.0:
     send "0.16.1"
     url "0.11.0"
 
-next@^8.0.4:
+next@^8.1.0:
   version "8.1.0"
   resolved "https://registry.npmjs.org/next/-/next-8.1.0.tgz#2a996dcd611f9e16920841c615e8bd6e5ada6e1c"
   integrity sha512-NRlL+FNSeHXkDSi8hFoBWghXFJrjHTCXyH6T/EFR1HJiGo2xR3xBPhsb7W+GvIIGIxHRTCDq+lyQLYvPirH84g==
@@ -3490,7 +3490,7 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-dom@^16.8.5:
+react-dom@^16.8.6:
   version "16.8.6"
   resolved "https://registry.npmjs.org/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   integrity sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA==
@@ -3517,7 +3517,7 @@ react-ssr-prepass@1.0.2:
   dependencies:
     object-is "^1.0.1"
 
-react@^16.8.5:
+react@^16.8.6:
   version "16.8.6"
   resolved "https://registry.npmjs.org/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   integrity sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==

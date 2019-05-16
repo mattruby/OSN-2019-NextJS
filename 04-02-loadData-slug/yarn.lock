@@ -2869,13 +2869,6 @@ neo-async@^2.5.0:
   resolved "http://artifactory.bluestembrands.com/artifactory/api/npm/npm-virtual/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha1-rCetpmFn+ohJpq3dg39rGJrSCBw=
 
-next-routes@^1.4.2:
-  version "1.4.2"
-  resolved "http://artifactory.bluestembrands.com/artifactory/api/npm/npm-virtual/next-routes/-/next-routes-1.4.2.tgz#736a382579a792ea69f35ae70b449acdfefa7944"
-  integrity sha1-c2o4JXmnkupp81rnC0Sazf76eUQ=
-  dependencies:
-    path-to-regexp "^2.1.0"
-
 next-server@8.1.0:
   version "8.1.0"
   resolved "http://artifactory.bluestembrands.com/artifactory/api/npm/npm-virtual/next-server/-/next-server-8.1.0.tgz#50a9f248ede69fb33d83aa5274ec6c66f421556e"
@@ -3283,11 +3276,6 @@ path-to-regexp@2.1.0:
   version "2.1.0"
   resolved "http://artifactory.bluestembrands.com/artifactory/api/npm/npm-virtual/path-to-regexp/-/path-to-regexp-2.1.0.tgz#7e30f9f5b134bd6a28ffc2e3ef1e47075ac5259b"
   integrity sha1-fjD59bE0vWoo/8Lj7x5HB1rFJZs=
-
-path-to-regexp@^2.1.0:
-  version "2.4.0"
-  resolved "http://artifactory.bluestembrands.com/artifactory/api/npm/npm-virtual/path-to-regexp/-/path-to-regexp-2.4.0.tgz#35ce7f333d5616f1c1e1bfe266c3aba2e5b2e704"
-  integrity sha1-Nc5/Mz1WFvHB4b/iZsOrouWy5wQ=
 
 path-type@^2.0.0:
   version "2.0.0"
