@@ -1,15 +1,20 @@
 import { useState, useEffect } from "react";
 
 const Loader = ({ pagePromise, render, loadingRender }) => {
-  // default to loading
   const [data, setData] = useState({ isLoading: true });
 
   useEffect(() => {
-    // When the data arrives turn off isLoading
     async function loadData() {
-      const data = await pagePromise;
-      setData({ isLoading: false, ...data });
+      new Promise(resolve => {
+        setTimeout(() => {
+          pagePromise.then(data => {
+            setData({ isLoading: false, ...data });
+            resolve();
+          });
+        }, 300);
+      });
     }
+
     loadData();
   }, []);
 

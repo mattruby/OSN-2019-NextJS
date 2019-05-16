@@ -15,8 +15,16 @@ class MyApp extends App {
         // Server side await
         pageProps.pagePromise = await pagePromise;
       } else {
-        // Client side keeps on movin
         pageProps.pagePromise = pagePromise;
+        // this is to give the client a little time to load the page content before showing the load state
+        await new Promise(resolve => {
+          const timer = setTimeout(resolve, 200);
+          pagePromise.then(data => {
+            clearTimeout(timer);
+            pageProps.pagePromise = data;
+            resolve();
+          });
+        });
       }
     }
 
