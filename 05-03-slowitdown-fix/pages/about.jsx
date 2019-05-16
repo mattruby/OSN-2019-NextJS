@@ -16,7 +16,7 @@ const About = ({ pagePromise }) => (
   />
 );
 
-About.getInitialPromise = async () =>
+About.getInitialPromise = () =>
   new Promise(function(resolve, reject) {
     setTimeout(function() {
       resolve({ firstName: "Matt" });
