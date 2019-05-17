@@ -14,9 +14,6 @@ const Search = ({ searchResults, keyword }) => (
         </li>
       ))}
     </ul>
-    <Link href="/">
-      <a>Return Home</a>
-    </Link>
   </Layout>
 );
 

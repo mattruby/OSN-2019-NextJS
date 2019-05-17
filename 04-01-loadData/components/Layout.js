@@ -5,6 +5,7 @@ export const Layout = ({ children }) => (
     <div>Cool header + menu</div>
     <hr />
     {children}
+    <br />
     <Link href="/">
       <a>Return Home</a>
     </Link>

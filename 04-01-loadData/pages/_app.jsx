@@ -13,7 +13,6 @@ class MyApp extends App {
      * @param {Object} res HTTP response (server only)
      * @param {Object} error Render error if any
      */
-
     if (Component.getInitialProps) {
       pageProps = await Component.getInitialProps(ctx);
     }
