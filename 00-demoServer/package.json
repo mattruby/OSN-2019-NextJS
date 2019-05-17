@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "demoProducts": "json-server productsBuilder.js --port 5005"
+    "start": "json-server productsBuilder.js --port 5005"
   },
   "dependencies": {
     "faker": "^4.1.0",
