@@ -12,7 +12,7 @@ This is a collection of simple code progressions.
       2. Introduce `Link`
       3. Introduce `dev`
       4. Introduce `build` & `start`
-      5. Show JS off
+      5. Demo turning JS off
 2. Loading Data
    1. 04-00-loadData
       1. Introduce `getInitialProps`
