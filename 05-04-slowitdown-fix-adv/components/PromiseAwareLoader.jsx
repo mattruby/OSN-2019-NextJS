@@ -1,6 +1,11 @@
 import { useState, useEffect } from "react";
 
-const Loader = ({ pagePromise, render, loadingRender }) => {
+const Loader = ({
+  pagePromise,
+  render,
+  loadingRender,
+  options = { minLoadTimeDisplay: 500 }
+}) => {
   const [data, setData] = useState({ isLoading: true });
 
   useEffect(() => {
@@ -11,7 +16,7 @@ const Loader = ({ pagePromise, render, loadingRender }) => {
             setData({ isLoading: false, ...data });
             resolve();
           });
-        }, 300);
+        }, options.minLoadTimeDisplay);
       });
     }
 

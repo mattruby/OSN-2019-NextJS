@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "bs": "next build && next start -p 3007",
     "dev": "next",
     "build": "next build",
     "start": "next start"

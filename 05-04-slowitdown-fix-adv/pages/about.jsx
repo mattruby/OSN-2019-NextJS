@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { PromiseAwareLoader } from "../components/PromiseAwareLoader";
+// import { PromiseAwareLoader } from "../components/PromiseAwareLoaderAdv";
 
 const About = ({ pagePromise }) => (
   <PromiseAwareLoader
