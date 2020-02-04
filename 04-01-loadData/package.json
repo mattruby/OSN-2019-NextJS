@@ -10,7 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "isomorphic-unfetch": "^3.0.0",
+    "isomorphic-unfetch": "latest",
     "next": "^9.2.1",
     "react": "^16.12.00",
     "react-dom": "^16.12.0"
