@@ -1,12 +1,12 @@
-import { Link } from "../routes";
+import Link from "next/link";
 import fetch from "isomorphic-unfetch";
-import { Layout } from "../components/Layout";
+import { Layout } from "../../components/Layout";
 
 const Product = ({ product }) => (
   <Layout>
     <h1>{product.name}</h1>
     <p>{product.description}</p>
-    <Link route="home">
+    <Link href="/">
       <a>Return Home</a>
     </Link>
   </Layout>

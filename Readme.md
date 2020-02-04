@@ -26,7 +26,7 @@ This is a collection of simple code progressions.
       2. Demo shortcomings
    4. 04-03-loadData-slug-ssr
       1. Introduce `next-routes`
-         1. Introduce `routes.js` and `server.js`
+         1. Introduce imperative file name based routing
       2. Add `product.id` as a slug
 3. Issues with loading data
    1. 05-01-slowitdown

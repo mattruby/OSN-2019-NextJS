@@ -1,10 +1,10 @@
+import { useRouter } from "next/router";
 import { useState } from "react";
-import { Router } from "../routes";
 import { Layout } from "../components/Layout";
 
 export default () => {
   const [searchTerm, setSearchTerm] = useState("");
-
+  const router = useRouter();
   return (
     <Layout>
       <h1>Welcome to my awesome homepage</h1>
@@ -14,7 +14,7 @@ export default () => {
         method="get"
         onSubmit={e => {
           e.preventDefault();
-          Router.pushRoute("search", { keyword: searchTerm });
+          router.push(`/search/${searchTerm}`);
         }}
       >
         <input

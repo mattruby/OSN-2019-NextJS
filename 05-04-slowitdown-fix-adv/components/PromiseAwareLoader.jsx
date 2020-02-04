@@ -4,7 +4,7 @@ const Loader = ({
   pagePromise,
   render,
   loadingRender,
-  options = { minLoadTimeDisplay: 500 }
+  options = { minLoadTimeDisplay: 800 }
 }) => {
   const [data, setData] = useState({ isLoading: true });
 

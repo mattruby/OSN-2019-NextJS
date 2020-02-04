@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "start": "json-server productsBuilder.js --port 5005"
+    "bs": "json-server productsBuilder.js --port 5005"
   },
   "dependencies": {
     "faker": "^4.1.0",
-    "json-server": "^0.14.2"
+    "json-server": "^0.15.1"
   }
 }

@@ -1,6 +1,6 @@
-import { Link } from "../routes";
+import Link from "next/link";
 import fetch from "isomorphic-unfetch";
-import { Layout } from "../components/Layout";
+import { Layout } from "../../components/Layout";
 
 const Search = ({ searchResults, keyword }) => (
   <Layout>
@@ -9,18 +9,15 @@ const Search = ({ searchResults, keyword }) => (
       {searchResults.map(product => (
         <li key={product.id}>
           <Link
-            route="product"
-            params={{
-              productName: product.name.replace(/ /g, "_"),
-              id: product.id
-            }}
+            href={`/product/[productName]?id=${product.id}`}
+            as={`/product/${product.name.replace(/ /g, "_")}?id=${product.id}`}
           >
             <a>{product.name}</a>
           </Link>
         </li>
       ))}
     </ul>
-    <Link route="home">
+    <Link href="/">
       <a>Return Home</a>
     </Link>
   </Layout>
